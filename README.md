@@ -66,7 +66,7 @@ DRIVE_REFRESH_TOKEN=
 <!-- RELATED PROJECT -->
 
 - [Frontend Telegram Chat Apps](https://github.com/rizkirnasution/Frontend-TelegramChatApps.git)
-- [Nibiru Chat Demo](https://frontend-telegram-chat-apps.vercel.app/)
+- [Frontend Telegram Chat Apss Demo](https://frontend-telegram-chat-apps.vercel.app/)
 
 ## Authors
 
