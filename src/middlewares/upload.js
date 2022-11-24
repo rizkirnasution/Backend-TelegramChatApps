@@ -8,9 +8,9 @@ const multerUpload = multer({
   storage: multer.diskStorage({
     destination: (req, file, cb) => {
       if (file.fieldname === 'photo') {
-        cb(null, './public/photo');
+        cb(null, './photo');
       } else {
-        cb(null, './public/video');
+        cb(null, './video');
       }
     },
     filename: (req, file, cb) => {

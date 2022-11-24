@@ -90,6 +90,7 @@ module.exports = {
       const { id } = req.params;
 
       const user = await userModel.findBy('id', id);
+      console.log("iniapa", user)
       // jika user tidak ditemukan
       if (!user.rowCount) {
         // hapus jika ada upload photo
@@ -109,9 +110,9 @@ module.exports = {
 
       let { photo } = user.rows[0];
       // jika ada upload photo
-      console.log('data potho',photo)
+      console.log('data photo',photo)
       console.log(user.rows[0])
-      console.log(req.files)
+      console.log("coba", req.files)
       if (req.files) {
         if (req.files.photo) {
           // menghapus photo sebelumnya di gd jika sebelumnya sudah pernah upload

@@ -12,6 +12,6 @@ router
   .get('/user', list)
   .get('/user/:id',  detail)
   .put('/user/:id',  validation.updateProfile, updateProfile)
-  .put('/user/:id/image',  upload, photoLimit, updatePhoto);
+  .put('/user/:id/photo',  upload, photoLimit, updatePhoto);
 
 module.exports = router;
